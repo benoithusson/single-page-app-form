@@ -1,0 +1,11 @@
+@import './assets/scss/variables.scss';
+
+html {
+  font-family: $font-family-default;
+  margin: 20px 20px 20px 20px;
+}
+
+.mainContainer {
+  width: 700px;
+  height: auto;
+}

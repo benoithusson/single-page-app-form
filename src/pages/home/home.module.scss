@@ -1,0 +1,24 @@
+.linkContainer {
+    width: 400px;
+    height: 50px;
+    margin: 40px 0 0 0;
+    display: flex;
+    justify-content: flex-start;
+    
+    .link {
+        text-decoration: none;
+        color: rgb(90, 89, 89);
+        margin: 0 50px 0 0;
+        border-bottom: 1px solid rgb(219, 219, 219);
+    }
+    
+    .link:hover { 
+        color: #7874f4;
+        padding-bottom: 1px;
+        border-bottom: 1px solid #7874f4;
+    }
+}
+
+.blocTitle {
+    margin: 10px 0 0 0;
+}

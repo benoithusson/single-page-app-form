@@ -9,8 +9,9 @@ class Form extends Component {
 
     state = {
         listState: false,
-        form_datas: {
-            assetName: '',
+        // creer le contenu de from_datas de maniére dynamique
+        form_datas: this.props.contentForm,
+           /* assetName: '',
             assetCode: '',
             maxIssuanceAmount: '',
             typeAsset: [],
@@ -18,7 +19,8 @@ class Form extends Component {
             initialPreIssuedAmount: '',
             preIssuanceAssetSignerId: '',
             additionnalIssuanceOrNot: '',
-        },
+            */
+           
         errors: {}
     };
 
@@ -113,7 +115,6 @@ class Form extends Component {
         } 
         else {
             console.log(JSON.stringify(this.state.form_datas, null, 2));
-            this.handleSubmit();
         }
     }
 
@@ -126,6 +127,7 @@ class Form extends Component {
 
         const { contentForm, textForButton } = this.props;
         const { errors, listState } = this.state;
+        console.log(this.state.form_datas);
 
         return (
 

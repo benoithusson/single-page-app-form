@@ -17,6 +17,8 @@ const Home = () => {
 
                <Link className={style.link} to="/advanced-form"> 2. Advanced Form</Link>
 
+               <Link className={style.link} href="/advanced-form">3. Test Form</Link>
+
             </div>
 
         </React.Fragment>

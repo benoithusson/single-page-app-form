@@ -1,4 +1,4 @@
-Next step : 
+Next steps : 
 
 1. scss code optimisation with using of variables / mixins and extense 
 

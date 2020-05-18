@@ -1,6 +1,6 @@
 Next steps : 
 
-1. scss code optimisation with using of variables / mixins and extense 
+1. scss code optimisation by using of variables / mixins and extense 
 
 2. Form validation : with trim() method or Joi
 error object is here but I can't figure out why this object comes only after the validation of the second form and not the first one
